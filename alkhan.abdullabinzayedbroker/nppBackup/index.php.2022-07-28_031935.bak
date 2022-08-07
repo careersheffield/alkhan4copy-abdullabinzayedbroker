@@ -1,0 +1,130 @@
+<?php session_start(); /* Starts the session */
+
+if(!isset($_SESSION['UserData']['Username'])){
+	header("location:login.php");
+	exit;
+}
+?>
+
+Congratulation! You have logged into password protected page. <a href="logout.php">Click here</a> to Logout.
+<head>
+<style type="text/css">
+.auto-style1 {
+        color: #800080;
+        font-size: small;
+}
+.auto-style2 {
+        font-family: Calibri;
+}
+.auto-style4 {
+	margin-left: 0px;
+}
+</style>
+</head>
+
+
+<div align="center" style="color: rgb(29, 34, 40); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+        <center>
+        <table id="yiv0191040008AutoNumber7" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;" width="745">
+                <tr>
+                        <td width="100%">
+                        <table id="yiv0191040008AutoNumber8" border="0" cellpadding="0" cellspacing="0" height="110" style="border-collapse: collapse;" width="745">
+                                <tr>
+                                        <td bgcolor="#F8FAF8" height="86" valign="top">
+                                        <table id="yiv0191040008table12" border="0" cellpadding="0" cellspacing="0" style="width: 806px">
+                                                <tr>
+                                                        <td colspan="9">
+                                                        <img src="logof-2.png" height="76" width="281"><img src="https://www.abdullazayed-capitals.com/wp-content/themes/mega/images/abdul-logo.png" height="76" width="281"></td>
+                                                        <td bgcolor="#0099FF">
+                                                        <img alt="" border="0" height="23" width="1"></td>
+                                                </tr>
+                                                <tr>
+                                                        <td bgcolor="#0099FF">&nbsp;</td>
+                                                        <td bgcolor="#0099FF"><font size="1">    </font></td>
+                                                        <td bgcolor="#0099FF"><font size="1">
+                                                        <img alt="" border="0" height="18" name="Top20banner_r3_c6" width="1"></font></td>
+                                                        <td bgcolor="#0099FF">&nbsp;</td>
+                                                        <td bgcolor="#0099FF"><font size="1">
+                                                        <img alt="" border="0" height="18" name="Top20banner_r3_c7" width="1"></font></td>
+                                                        <td bgcolor="#0099FF">&nbsp;</td>
+                                                        <td bgcolor="#0099FF"></td>
+                                                        <td bgcolor="#0099FF"></td>
+                                                        <td bgcolor="#0099FF" style="width: 158px"></td>
+                                                        <td bgcolor="#0099FF"><img alt="" border="0" height="12" width="1"></td>
+                                                </tr>
+                                        </table>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <td bgcolor="#0099FF" height="37" width="745">
+                                        <table id="yiv0191040008AutoNumber9" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;" width="551">
+                                                <tr>
+                                                        <td align="center" bgcolor="#5E010A" class="yiv0191040008standardtext" style="width: 11px">
+                                                        <p class="yiv0191040008copymain">
+                                                        &nbsp;</p>
+                                                        </td>
+                                                        <td bgcolor="#5E010A" class="yiv0191040008standardtext" width="549">
+                                                        <p class="yiv0191040008copymain">
+                                                        <font color="#ccff66">
+                                                        <marquee scrollamount="7" scrolldelay="140" style="display: inline-block; overflow: hidden; text-align: initial; white-space: nowrap;" class="auto-style4">Abdulla Bin Zayed Consulting | Authorized Financial Broker - Abdulla Zayed Capitals | Capital Raising (Debt & Equity) | Mergers & Acquisitions | Restructuring | Corporate Strategy | Dubai – UAE</marquee></font></p>                            </td>
+                                                </tr>
+                                                <tr>
+                                                        <td bgcolor="#FFCCFF" colspan="2" width="649">&nbsp;<br>
+                                                        <span class="auto-style2"><span class="auto-style1">
+                                                        
+                                                        <img src="ita.jpg" style="width: 800px; height: 1254px""/> 
+                                                        
+														<strong> <br> <br>Email 
+														Abdul Khan at&nbsp; 
+														alkhan.abduzb@gmail.com<br> 
+														 <tr>
+                                                                <td style="font-family: Lato; width: 111px; vertical-align: bottom;">
+																&nbsp;</td>
+                                                                <td style="font-family: Lato; width: 210px; vertical-align: bottom;">
+																&nbsp;</td>
+                                                                <td style="font-family: Lato; width: 156px; vertical-align: bottom;">
+																&nbsp;</td>
+                                                                <td style="font-family: Lato; width: 230px; vertical-align: bottom;">
+																&nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td bgcolor="#f6f6f6" colspan="2" width="649">
+                                                        <img border="0" height="1" width="1"></td>
+                                                </tr>
+                                                <tr>
+                                                        <td bgcolor="#ffffff" colspan="2" width="649">
+                                                        <img border="0" height="1" width="1"></td>
+                                                </tr>
+                                        </table>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <td bgcolor="#FFCCFF" height="1" width="745">
+                                        <img border="0" height="1" width="1"></td>
+                                </tr>
+                                <tr>
+                                        <td height="1" width="745">
+                                        <img border="0" height="1" width="1"></td>
+                                </tr>
+                                <tr>
+                                        <td bgcolor="#5E010A" height="15" width="745">
+                                        <p align="center" class="yiv0191040008copyright">
+                                        <font color="#c0c0c0" face="Verdana" size="1">© 2012-2022,
+                                        Abdulla Bin Zayed Consulting, All rights Reserved<br></font>
+                                        </p>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <td bgcolor="#000000" height="15" width="745">
+                                        <p align="right">&nbsp;</p>
+                                        </td>
+                                </tr>
+                        </table>
+                        </td>
+                </tr>
+        </table>
+        </center></div>
+Congratulation! You have logged into password protected page. <a href="logout.php">Click here</a> to Logout.
